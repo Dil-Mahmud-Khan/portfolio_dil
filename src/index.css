@@ -1,0 +1,50 @@
+/* ── CSS VARIABLES ── */
+:root {
+  --grad-dark:   #000428;
+  --grad-mid:    #002560;
+  --grad-light:  #004e92;
+  --cyan:        #38d9f5;
+  --cyan-dim:    rgba(56,217,245,0.18);
+  --green:       #2eedb3;
+  --orange:      #ff8c42;
+  --white:       #ffffff;
+  --off-white:   rgba(255,255,255,0.90);
+  --muted:       rgba(255,255,255,0.58);
+  --border:      rgba(255,255,255,0.12);
+  --border-hover:rgba(56,217,245,0.55);
+  --surface:     rgba(255,255,255,0.06);
+  --surface2:    rgba(255,255,255,0.10);
+  --mono: 'Share Tech Mono', monospace;
+  --sans: 'DM Sans', sans-serif;
+  --radius: 8px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  background: linear-gradient(135deg, var(--grad-dark) 0%, var(--grad-mid) 50%, var(--grad-light) 100%);
+  background-attachment: fixed;
+  color: var(--white);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.75;
+  min-height: 100vh;
+}
+
+/* ── ANIMATIONS ── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(22px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--grad-dark); }
+::-webkit-scrollbar-thumb { background: var(--cyan-dim); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--cyan); }
