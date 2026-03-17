@@ -217,7 +217,8 @@ export const education = [
 // ── CERTIFICATIONS ─────────────────────────────────────────
 // status options: "active" | "progress" | "award" | "certificate"
 export const certifications = [
-    { icon: "🛡️", name: "TryHackMe SOC Level 1", org: "TryHackMe", status: "active" },
+  { icon: "🛡️", name: "TryHackMe SOC Level 1", org: "TryHackMe", status: "active" },
+  { icon: "🛡️", name: "TryHackMe Junior Penetration Tester", org: "TryHackMe", status: "active" },
   { icon: "☁️", name: "Salesforce Certified Administrator", org: "Salesforce Inc · June 2024", status: "active" },
   { icon: "🔐", name: "CompTIA Security+", org: "CompTIA", status: "progress" },
   { icon: "🌐", name: "CCNA", org: "Cisco", status: "progress" },
