@@ -220,6 +220,7 @@ export const certifications = [
   { icon: "🌐", name: "Cisco CCNA", org: "CISCO", status: "active" },
   { icon: "🛡️", name: "TryHackMe SOC Level 1", org: "TryHackMe", status: "active" },
   { icon: "🛡️", name: "TryHackMe Junior Penetration Tester", org: "TryHackMe", status: "active" },
+  { icon: "🛡️", name: "Security Engineering", org: "TryHackMe", status: "active" },
   { icon: "☁️", name: "Salesforce Certified Administrator", org: "Salesforce Inc · June 2024", status: "active" },
   { icon: "🔐", name: "CompTIA Security+", org: "CompTIA", status: "progress" },
   { icon: "🏆", name: "Student of the Year — Outstanding Talent", org: "Education Board Bangladesh · 2016", status: "award" },
