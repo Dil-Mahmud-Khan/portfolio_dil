@@ -70,7 +70,6 @@ export const skillGroups = [
       { name: "MITRE ATT&CK", highlight: true },
       { name: "TryHackMe", highlight: true },
       { name: "IDS / IPS" },
-      { name: "EDR" },
       { name: "SOAR" },
       { name: "Firewalls / Access Control" },
       { name: "ISMS" },
