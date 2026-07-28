@@ -7,7 +7,7 @@
 export const personal = {
   name: "Dil Mahmud Khan",
   title: "SOC Analyst & Cybersecurity",
-  email: "dilmahmudkhan@gmail.com",
+  email: "dilmahmudkhan956@gmail.com",
   phone: "+90 553 873 02 77",
   location: "Istanbul, Turkey",
   linkedin: "https://linkedin.com/in/dil-mahmud-khan-71b4191a0",
